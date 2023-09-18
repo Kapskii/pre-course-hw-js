@@ -7,7 +7,7 @@ let passportMarried = {
     }
 };
 
-let passportMarried1 = {
+let passportMarried2 = {
     name: "Petr",
     surname: "Petrov",
     married: true,
