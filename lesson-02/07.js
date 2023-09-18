@@ -8,13 +8,7 @@ let passportMarried = {
 };
 
 let passportMarried2 = {
-    name: "Petr",
-    surname: "Petrov",
-    married: true,
-    address: {
-        country: "USA",
-        city: "Bobryisk"
-    }
+    ...passportMarried, address: {...passportMarried.address}, married: true
 };
 
 console.log(passportMarried);
