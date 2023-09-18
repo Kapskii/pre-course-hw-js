@@ -10,7 +10,7 @@ let passportMarried = {
 let passportMarried2 = {
     name: "Petr",
     surname: "Petrov",
-    married: true,
+    isMarried: true,
     address: {
         country: "USA",
         city: "Bobryisk"
